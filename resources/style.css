@@ -1,0 +1,26 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
+.album_art {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: auto;
+
+}
+
+
+.album_art img {
+  height: 150px;
+  padding: 10px;
+}
+
+* {
+  font-family: sans-serif;
+  background-color: honeydew;
+  text-align: center;
+}
